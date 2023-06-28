@@ -1,0 +1,156 @@
+.bg-navbar {
+  background-color: rgba(22, 22, 23, 0.8);
+}
+
+.navbar a {
+  color: white;
+}
+
+.banner {
+  background-image: url("IMG_20220630_063358.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+}
+
+.bannerk {
+  background-image: url("sate.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+}
+
+.bannerw {
+  background-image: url("IMG_20220630_062610.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+}
+
+.bannerb {
+  background-image: url("keris.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+}
+
+.bg-banner {
+  background: rgba(0, 0, 0, 0.658);
+  height: 650px;
+}
+
+.bg-bannerk {
+  background: rgba(0, 0, 0, 0.658);
+  height: 650px;
+}
+
+.bg-bannerw {
+  background: rgba(0, 0, 0, 0.39);
+  height: 650px;
+}
+
+.bg-bannerb {
+  background: rgba(0, 0, 0, 0.658);
+  height: 650px;
+}
+
+.img-banner {
+  width: 350px;
+  height: 350px;
+  background-image: url("logo-kabupaten-bantul.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.font1 {
+  font-size: 100px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.font2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.aksara {
+  font-size: 30px;
+}
+
+.card {
+  background: rgb(20, 19, 19);
+}
+
+.contact {
+  background-image: url("IMG_20220630_062244.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contactk {
+  background-image: url("sate.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contactw {
+  background-image: url("IMG_20220630_062610.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contactb {
+  background-image: url("keris.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-contact {
+  background: rgba(0, 0, 0, 0.658);
+}
+
+.bg-contactk {
+  background: rgba(0, 0, 0, 0.658);
+}
+
+.bg-contactw {
+  background: rgba(0, 0, 0, 0.39);
+}
+
+.bg-contactb {
+  background: rgba(0, 0, 0, 0.658);
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-whatsapp {
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.gambar-slide {
+  border-radius: 5%;
+}
+
+.bg-secondary {
+  background-color: rgb(231, 231, 231) !important;
+}

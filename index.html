@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bantul Mantul</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-navbar fixed-top shadow">
+      <div class="container">
+        <a class="navbar-brand h1 mb-0" href="#"
+          ><img src="logo-dark.png" width="40%" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wisata.html" target="_blank">Wisata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kuliner.html" target="_blank"
+                >Kuliner</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="budaya.html" target="_blank">Budaya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- banner -->
+    <div class="banner text-white text-center">
+      <div class="bg-banner">
+        <div class="container py-5">
+          <div class="row pt-5">
+            <div class="col-lg-8 py-5">
+              <h1 class="font1">Bantul Mantul</h1>
+              <hr />
+              <p class="font2">THE HARMONY OF NATURE AND CULTURE</p>
+              <p class="aksara">"ꦲꦩꦩꦪꦸꦲꦪꦸꦤꦶꦁꦧꦮꦤ"</p>
+              <a
+                href="#explore"
+                class="btn btn-outline-light btn-light text-bg-dark mt-5"
+                >Explore Bantul</a
+              >
+            </div>
+            <div class="col-lg-4 d-none d-lg-inline">
+              <div class="img-banner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end banner-->
+    <!--about-->
+    <div class="about py-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide"
+              data-bs-ride="false"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="IMG_20220630_061931.jpg"
+                    class="gambar-slide d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Wisata</h5>
+                    <p>Beragam keindahan wisata yang disajikan.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="keris.jpg"
+                    class="gambar-slide d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Budaya</h5>
+                    <p>Beragam budaya luhur yang dilestarikan.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="sate.jpg"
+                    class="gambar-slide d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Kuliner</h5>
+                    <p>Beragam kuliner yang kaya akan rasa dan makna.</p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <h3>Geografis Kabupaten Bantul</h3>
+            <p style="text-indent: 45px; text-align: justify">
+              Bantul (Jawa: ꦧꦤ꧀ꦠꦸꦭ꧀, translit. Bantul) adalah sebuah kapanewon
+              atau setingkat kecamatan di Kabupaten Bantul, provinsi Daerah
+              Istimewa Yogyakarta, Indonesia. Kecamatan Bantul juga sekaligus
+              menjadi ibukota dari Kabupaten Bantul, Daerah Istimewa Yogyakarta
+              dan sering disebut juga sebagai Kota Bantul. Kecamatan ini
+              berbatasan dengan Kepanewon Sewon di sebelah utara, Kepanewon
+              Jetis di sebelah timur, Kepanewon Bambanglipuro di sebelah
+              selatan, dan Kepanewon Pajangan di sebelah barat.
+            </p>
+            <p style="text-indent: 45px; text-align: justify">
+              Kabupaten Bantul merupakan bagian dari Provinsi Daerah Istimewa
+              Yogyakarta yang secara geografis terletak pada 07° 44´ 04´´ - 08°
+              00´ 27´´ Lintang Selatan dan 110° 12´ 34´´ - 110° 31´ 08´´ Bujur
+              Timur.
+            </p>
+            <p style="text-indent: 45px; text-align: justify">
+              Sebelah Utara berbatasan dengan Kota Yogyakarta dan Kabupaten
+              Sleman, Sebelah Barat berbatasan dengan Kabupaten Kulon Progo,
+              Sebelah Timur berbatasan dengan Kabupaten Gunung Kidul, Sebelah
+              Selatan berbatasan dengan Samudera Indonesia, Luas wilayah
+              Kabupaten Bantul adalah 506, 85 Km² yang terbagi menjadi 17
+              Kapanewon, 75 Kalurahan, dan 933 Padukuhan.
+            </p>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <!--end about-->
+    <!--eksplore-->
+    <div class="model" id="explore">
+      <div class="container py-2">
+        <h3 class="text-center">Explore Bantul</h3>
+        <p class="text-center">
+          Eksplore beragam wisata, kuliner, dan budaya yang ada di Bantul dengan
+          menekan pilihan dibawah ini!!!!
+        </p>
+        <div class="row mt-4">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="IMG_20220630_061951.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title text-white">Wisata</h5>
+                <p class="card-text text-white">Pilihan wisata Bantul.</p>
+                <a href="wisata.html" class="btn btn-outline-light btn-dark"
+                  >Pilih</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="sate.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-white">Kuliner</h5>
+                <p class="card-text text-white">Pilihan Kuliner Bantul.</p>
+                <a href="kuliner.html" class="btn btn-outline-light btn-dark"
+                  >Pilih</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="keris.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title text-white">Budaya</h5>
+                <p class="card-text text-white">Pilihan budaya Bantul.</p>
+                <a href="budaya.html" class="btn btn-outline-light btn-dark"
+                  >Pilih</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end eksplore-->
+    <!-- tertarik -->
+    <div class="contact" id="contact">
+      <div class="bg-contact mb-5 mt-5">
+        <div class="container py-5">
+          <div class="text-center text-white mb-5">
+            <h3>Ingin liburan murah dan menyenangkan???</h3>
+            <h5>Segera kunjungi sosial media BantulMantul.co</h5>
+            <div class="row pt-5">
+              <div class="col-md-3 mb-3">
+                <a href="https://twitter.com/IqbalArrosyid15" target="_blank"
+                  ><i class="fa-brands fa-twitter fa-2xl"></i
+                ></a>
+              </div>
+              <div class="col-md-3 mb-3">
+                <a
+                  href="https://www.facebook.com/Cobra.mugen2003"
+                  target="_blank"
+                  ><i class="fa-brands fa-facebook fa-2xl"></i
+                ></a>
+              </div>
+              <div class="col-md-3 mb-3">
+                <a
+                  href="https://www.instagram.com/iqbal.arrosyid_/"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram fa-2xl"></i
+                ></a>
+              </div>
+              <div class="col-md-3 mb-3">
+                <a href="https://wa.me/083838746017" target="_blank"
+                  ><i class="fa-brands fa-whatsapp fa-2xl"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end tertarik -->
+    <!-- footer -->
+    <footer class="bg-light mt-5 py-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-5">
+            <h2>BantulMantul.Co</h2>
+            <p class="w-75">
+              07° 44′ 04″ – 08° 00′ 27″ Lintang Selatan dan 110° 12′ 34″ – 110°
+              31′ 08″ Bujur Timur.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Pintasan</h5>
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="wisata.html"
+                  >Wisata</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="kuliner.html"
+                  >Kuliner</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="budaya.html"
+                  >Budaya</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Contact</h5>
+            <a href="" class="nav-link">Hubungi Kami</a>
+          </div>
+        </div>
+        <hr />
+        &copy; BantulMantul.co
+      </div>
+    </footer>
+    <!-- end footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2d3bfb5e1f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
